@@ -271,7 +271,8 @@ Contact area
     box-shadow: none;
   }
   .hero-area {
-    padding: 60px 1px;
+    padding: 60px 0px;
+    padding-left: 20px;
   }
   .hero-text h2 {
     font-size: 32px;
@@ -307,8 +308,7 @@ Contact area
 
 @media only screen and (max-width: 575px) {
   .hero-area {
-    padding: 60px 1px;
-    margin-left: 0px;
+    padding: 60px 0px;
   }
   .hero-text h2 {
     font-size: 30px;
@@ -346,7 +346,8 @@ Contact area
   /*  hero area */
 
   .hero-area {
-    padding: 50px 1px;
+    padding: 50px 0px;
+    padding-left: 20px;
   }
   .hero-text h2 {
     font-size: 28px;
@@ -358,6 +359,7 @@ Contact area
 
   .service-area h2 {
     font-size: 30px;
+    line-height: 40px;
   }
   .service-heading h3 {
     font-size: 16px;
@@ -365,7 +367,8 @@ Contact area
 
   /* Contact area */
   .contact-area {
-    padding: 50px 1px;
+    padding: 50px 0px;
+    padding-left: 20px;
   }
   .contact-area .contact-text {
     margin-top: 60px;
@@ -375,6 +378,9 @@ Contact area
   }
   .contact-area h2 {
     font-size: 30px;
+  }
+  .contact-area h3 {
+    font-size: 18px;
   }
   .contact-area p {
     font-size: 14px;
